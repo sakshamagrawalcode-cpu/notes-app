@@ -20,14 +20,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-#img{
-    background-color: gray;
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    margin-bottom: 20px;
 
-}
 #icons{
    height: 300px;
    width: 50px;
@@ -38,13 +31,11 @@ body {
    
 }
 .icon:hover{
-    background-color: rgb(106, 58, 58);
-    cursor: pointer;
+ background-color: rgb(106, 58, 58);
+    
 }
 
-#refresh-icon:hover {
-    background-color:rgb(17, 0, 93);
-}
+
 #add_sign{
     position: relative;
     top: 2px;
@@ -73,7 +64,7 @@ h3{
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    display:none;
+    
     
     
 }  
@@ -83,7 +74,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    display: non
+    display: none;
 
 
 }
@@ -142,5 +133,14 @@ textarea{
 #a0{
     display: flex;
     
+}
+.s1{
+  z-index: 1;
+}
+.s2{
+  z-index: 2;
+}
+.s3{
+  z-index: 3;
 }
 
